@@ -1,4 +1,71 @@
 {
-  "item.exoterra.blabla": "Blah Blah",
-  "item.exoterra.poopoo": "Poop Pee"
+  "item.exoterra.common_silica_sand": "Common Silica Sand",
+  "item.exoterra.silicon_wafer": "Silicon Wafer",
+  "item.exoterra.silicon_boule": "Silicon Boule",
+
+  "item.exoterra.iridium_ingot": "Iridium Ingot",
+  "item.exoterra.iridium_nugget": "Iridium Nugget",
+  "item.exoterra.iridium_rod": "Iridium Rod",
+  "item.exoterra.iridium_plate": "Iridium Plate",
+  "item.exoterra.iridium_powder": "Iridium Powder",
+  "item.exoterra.iridium_ore_item": "Iridium Ore",
+
+  "item.exoterra.bauxite_ore_item": "Bauxite Ore",
+  "item.exoterra.alumina": "Alumina",
+  "item.exoterra.aluminum_ingot": "Aluminum Ingot",
+  "item.exoterra.aluminum_nugget": "Aluminum Nugget",
+  "item.exoterra.aluminum_rod": "Aluminum Rod",
+  "item.exoterra.aluminum_plate": "Aluminum Plate",
+  "item.exoterra.aluminum_powder": "Aluminum Powder",
+  "item.exoterra.raw_aluminum": "Raw Aluminum",
+
+  "item.exoterra.casserite_ore_item": "Casserite Ore",
+  "item.exoterra.tin_ingot": "Tin Ingot",
+  "item.exoterra.tin_nugget": "Tin Nugget",
+  "item.exoterra.tin_rod": "Tin Rod",
+  "item.exoterra.tin_plate": "Tin Plate",
+  "item.exoterra.tin_powder": "Tin Powder",
+
+  "item.exoterra.rutile_ore_item": "Rutile Ore",
+  "item.exoterra.titanium_ingot": "Titanium Ingot",
+  "item.exoterra.titanium_nugget": "Titanium Nugget",
+  "item.exoterra.titanium_rod": "Titanium Rod",
+  "item.exoterra.titanium_plate": "Titanium Plate",
+  "item.exoterra.titanium_powder": "Titanium Powder",
+  "item.exoterra.raw_titanium": "Raw Titanium",
+
+  "item.exoterra.steel_ingot": "Steel Ingot",
+  "item.exoterra.steel_nugget": "Steel Nugget",
+  "item.exoterra.steel_rod": "Steel Rod",
+  "item.exoterra.steel_plate": "Steel Plate",
+  "item.exoterra.steel_powder": "Steel Powder",
+
+  "item.exoterra.magnesite_ore_item": "Magnesite Ore",
+  "item.exoterra.magnesium_powder": "Magnesium Powder",
+
+  "item.exoterra.sulfur_powder": "Sulfur Powder",
+
+
+
+
+  "block.exoterra.iridium_ore": "Iridium Ore",
+  "block.exoterra.deepslate_iridium_ore": "Deepslate Iridium Ore",
+
+  "block.exoterra.bauxite_ore": "Bauxite Ore",
+  "block.exoterra.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+
+  "block.exoterra.casserite_ore": "Casserite Ore",
+  "block.exoterra.deepslate_casserite_ore": "Deepslate Casserite Ore",
+
+  "block.exoterra.rutile_ore": "Rutile Ore",
+  "block.exoterra.deepslate_rutile_ore": "Deepslate Rutile Ore",
+
+  "block.exoterra.magnesite_ore": "Magnesite Ore",
+  "block.exoterra.deepslate_magnesite_ore": "Deepslate Magnesite Ore",
+
+
+
+
+  "creativetab.exoterra.exoterra_items": "ExoTerra Items",
+  "creativetab.exoterra.exoterra_blocks": "ExoTerra Blocks"
 }
