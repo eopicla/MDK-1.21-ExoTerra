@@ -1,0 +1,14 @@
+{
+  "values": [
+    "exoterra:iridium_ore",
+    "exoterra:deepslate_iridium_ore",
+    "exoterra:bauxite_ore",
+    "exoterra:deepslate_bauxite_ore",
+    "exoterra:casserite_ore",
+    "exoterra:deepslate_casserite_ore",
+    "exoterra:rutile_ore",
+    "exoterra:deepslate_rutile_ore",
+    "exoterra:magnesite_ore",
+    "exoterra:deepslate_magnesite_ore"
+  ]
+}
