@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "exoterra:iridium_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "exoterra:iridium_nugget"
+  }
+}
