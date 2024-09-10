@@ -37,7 +37,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ELITE_MOTOR.get())
 
                 .add(ModBlocks.BASIC_MACHINE_STRUCTURE.get())
-                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
+                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get())
+
+                .add(ModBlocks.POWER_INPUT_PLUG.get())
+                .add(ModBlocks.POWER_OUTPUT_PLUG.get())
+
+                .add(ModBlocks.FLUID_INPUT_HATCH.get())
+                .add(ModBlocks.FLUID_OUTPUT_HATCH.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -58,6 +64,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.ELITE_MOTOR.get())
 
                 .add(ModBlocks.BASIC_MACHINE_STRUCTURE.get())
-                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
+                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get())
+
+                .add(ModBlocks.POWER_INPUT_PLUG.get())
+                .add(ModBlocks.POWER_OUTPUT_PLUG.get())
+
+                .add(ModBlocks.FLUID_INPUT_HATCH.get())
+                .add(ModBlocks.FLUID_OUTPUT_HATCH.get());
     }
 }

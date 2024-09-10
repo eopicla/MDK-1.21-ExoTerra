@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "exoterra:block/power_output_plug" }
+  }
+}

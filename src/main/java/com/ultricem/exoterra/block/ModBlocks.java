@@ -91,6 +91,13 @@ public class ModBlocks {
     public static final DeferredBlock<Block> BASIC_MACHINE_STRUCTURE = registerBlock("basic_machine_structure", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
     public static final DeferredBlock<Block> ADVANCED_MACHINE_STRUCTURE = registerBlock("advanced_machine_structure", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
 
+    //NOTE: Power I/O Plug Blocks
+    public static final DeferredBlock<Block> POWER_INPUT_PLUG = registerBlock("power_input_plug", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> POWER_OUTPUT_PLUG = registerBlock("power_output_plug", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
+
+    //NOTE: Fluid I/O Hatch Blocks
+    public static final DeferredBlock<Block> FLUID_INPUT_HATCH = registerBlock("fluid_input_hatch", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> FLUID_OUTPUT_HATCH = registerBlock("fluid_output_hatch", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

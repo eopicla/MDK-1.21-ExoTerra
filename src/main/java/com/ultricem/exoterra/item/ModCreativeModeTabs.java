@@ -117,6 +117,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.BASIC_MACHINE_STRUCTURE);
                         output.accept(ModBlocks.ADVANCED_MACHINE_STRUCTURE);
 
+                        output.accept(ModBlocks.POWER_INPUT_PLUG);
+                        output.accept(ModBlocks.POWER_OUTPUT_PLUG);
+
+                        output.accept(ModBlocks.FLUID_INPUT_HATCH);
+                        output.accept(ModBlocks.FLUID_OUTPUT_HATCH);
+
 
                     }).build());
 

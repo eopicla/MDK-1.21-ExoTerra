@@ -15,6 +15,10 @@
     "exoterra:enhanced_motor",
     "exoterra:elite_motor",
     "exoterra:basic_machine_structure",
-    "exoterra:advanced_machine_structure"
+    "exoterra:advanced_machine_structure",
+    "exoterra:power_input_plug",
+    "exoterra:power_output_plug",
+    "exoterra:fluid_input_hatch",
+    "exoterra:fluid_output_hatch"
   ]
 }

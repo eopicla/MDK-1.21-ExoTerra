@@ -60,6 +60,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
         dropSelf(ModBlocks.BASIC_MACHINE_STRUCTURE.get());
         dropSelf(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
+
+        dropSelf(ModBlocks.POWER_INPUT_PLUG.get());
+        dropSelf(ModBlocks.POWER_OUTPUT_PLUG.get());
+
+        dropSelf(ModBlocks.FLUID_INPUT_HATCH.get());
+        dropSelf(ModBlocks.FLUID_OUTPUT_HATCH.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

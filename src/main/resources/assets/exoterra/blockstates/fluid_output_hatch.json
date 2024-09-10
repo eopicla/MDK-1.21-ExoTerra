@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "exoterra:block/fluid_output_hatch" }
+  }
+}
