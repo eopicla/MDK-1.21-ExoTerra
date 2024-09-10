@@ -104,13 +104,19 @@ public class ModCreativeModeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> EXOTERRA_MACHINES_TAB = CREATIVE_MODE_TAB.register("exoterra_machines_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.STONECUTTER))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ELITE_MOTOR.get()))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ExoTerra.MOD_ID, "exoterra_components_tab"))
                     .title(Component.translatable("creativetab.exoterra.exoterra_machines"))
                     .displayItems((itemDisplayParameters, output) -> {
 
-                        output.accept(ModItems.ALUMINA);
-                        // Add contents here as before
+                        output.accept(ModBlocks.BASIC_MOTOR);
+                        output.accept(ModBlocks.ADVANCED_MOTOR);
+                        output.accept(ModBlocks.ENHANCED_MOTOR);
+                        output.accept(ModBlocks.ELITE_MOTOR);
+
+                        output.accept(ModBlocks.BASIC_MACHINE_STRUCTURE);
+                        output.accept(ModBlocks.ADVANCED_MACHINE_STRUCTURE);
+
 
                     }).build());
 

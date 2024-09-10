@@ -1,10 +1,14 @@
 package com.ultricem.exoterra.block;
 
+import com.mojang.serialization.MapCodec;
 import com.ultricem.exoterra.ExoTerra;
+import com.ultricem.exoterra.block.custom.MotorBlock;
 import com.ultricem.exoterra.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DirectionalBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -76,6 +80,16 @@ public class ModBlocks {
                     .strength(4.5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
+
+    //NOTE: Motor Blocks V
+    public static final DeferredBlock<Block> BASIC_MOTOR = registerBlock("basic_motor", () -> new MotorBlock(BlockBehaviour.Properties.of()));
+    public static final DeferredBlock<Block> ADVANCED_MOTOR = registerBlock("advanced_motor", () -> new MotorBlock(BlockBehaviour.Properties.of()));
+    public static final DeferredBlock<Block> ENHANCED_MOTOR = registerBlock("enhanced_motor", () -> new MotorBlock(BlockBehaviour.Properties.of()));
+    public static final DeferredBlock<Block> ELITE_MOTOR = registerBlock("elite_motor", () -> new MotorBlock(BlockBehaviour.Properties.of()));
+
+    //NOTE: Machine Structure Blocks V
+    public static final DeferredBlock<Block> BASIC_MACHINE_STRUCTURE = registerBlock("basic_machine_structure", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> ADVANCED_MACHINE_STRUCTURE = registerBlock("advanced_machine_structure", () -> new Block(BlockBehaviour.Properties.of().strength(3f).sound(SoundType.METAL)));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

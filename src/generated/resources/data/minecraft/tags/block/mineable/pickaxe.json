@@ -9,6 +9,12 @@
     "exoterra:rutile_ore",
     "exoterra:deepslate_rutile_ore",
     "exoterra:magnesite_ore",
-    "exoterra:deepslate_magnesite_ore"
+    "exoterra:deepslate_magnesite_ore",
+    "exoterra:basic_motor",
+    "exoterra:advanced_motor",
+    "exoterra:enhanced_motor",
+    "exoterra:elite_motor",
+    "exoterra:basic_machine_structure",
+    "exoterra:advanced_machine_structure"
   ]
 }

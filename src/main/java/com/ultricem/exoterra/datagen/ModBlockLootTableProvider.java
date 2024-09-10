@@ -50,6 +50,16 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createOreDrop(ModBlocks.MAGNESITE_ORE.get(), ModItems.MAGNESITE_ORE_ITEM.get()));
         this.add(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get(),
                 block -> createOreDrop(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get(), ModItems.MAGNESITE_ORE_ITEM.get()));
+
+
+
+        dropSelf(ModBlocks.BASIC_MOTOR.get());
+        dropSelf(ModBlocks.ENHANCED_MOTOR.get());
+        dropSelf(ModBlocks.ADVANCED_MOTOR.get());
+        dropSelf(ModBlocks.ELITE_MOTOR.get());
+
+        dropSelf(ModBlocks.BASIC_MACHINE_STRUCTURE.get());
+        dropSelf(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
     }
 
     protected LootTable.Builder createMultipleOreDrops(Block pBlock, Item item, float minDrops, float maxDrops) {

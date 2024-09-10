@@ -29,7 +29,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUTILE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_RUTILE_ORE.get())
                 .add(ModBlocks.MAGNESITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get())
+
+                .add(ModBlocks.BASIC_MOTOR.get())
+                .add(ModBlocks.ADVANCED_MOTOR.get())
+                .add(ModBlocks.ENHANCED_MOTOR.get())
+                .add(ModBlocks.ELITE_MOTOR.get())
+
+                .add(ModBlocks.BASIC_MACHINE_STRUCTURE.get())
+                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
+
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.IRIDIUM_ORE.get())
@@ -41,6 +50,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RUTILE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_RUTILE_ORE.get())
                 .add(ModBlocks.MAGNESITE_ORE.get())
-                .add(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get());
+                .add(ModBlocks.DEEPSLATE_MAGNESITE_ORE.get())
+
+                .add(ModBlocks.BASIC_MOTOR.get())
+                .add(ModBlocks.ADVANCED_MOTOR.get())
+                .add(ModBlocks.ENHANCED_MOTOR.get())
+                .add(ModBlocks.ELITE_MOTOR.get())
+
+                .add(ModBlocks.BASIC_MACHINE_STRUCTURE.get())
+                .add(ModBlocks.ADVANCED_MACHINE_STRUCTURE.get());
     }
 }

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "exoterra:block/basic_motor" },
+    "facing=east": { "model": "exoterra:block/basic_motor", "y": 90 },
+    "facing=south": { "model": "exoterra:block/basic_motor", "y": 180 },
+    "facing=west": { "model": "exoterra:block/basic_motor", "y": 270 }
+  }
+}
