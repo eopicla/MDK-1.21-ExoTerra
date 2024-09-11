@@ -5,12 +5,15 @@ import com.mojang.logging.LogUtils;
 import com.ultricem.exoterra.block.ModBlocks;
 import com.ultricem.exoterra.item.ModCreativeModeTabs;
 import com.ultricem.exoterra.item.ModItems;
+import com.ultricem.exoterra.setup.ClientSetup;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
@@ -23,7 +26,7 @@ public class ExoTerra {
     public static final String MOD_ID = "exoterra";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public ExoTerra(IEventBus modEventBus) {
+    public ExoTerra(IEventBus modEventBus, ModContainer modContainer) {
 
         modEventBus.addListener(this::commonSetup);
 
@@ -31,13 +34,21 @@ public class ExoTerra {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ETDataComponents.COMPONENTS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
+        modEventBus.addListener(this::clientSetup);
+
+        modContainer.registerConfig(ModConfig.Type.SERVER, Config.SERVER_CONFIG);
 
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
+
+    }
+
+    private void clientSetup(final FMLClientSetupEvent event) {
 
     }
 

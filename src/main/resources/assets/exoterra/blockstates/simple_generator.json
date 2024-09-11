@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "exoterra:block/simple_generator",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "exoterra:block/simple_generator"
+    },
+    "facing=south": {
+      "model": "exoterra:block/simple_generator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "exoterra:block/simple_generator",
+      "y": 270
+    }
+  }
+}

@@ -69,5 +69,10 @@
   "block.exoterra.basic_motor": "Basic Motor",
 
   "creativetab.exoterra.exoterra_items": "ExoTerra Items",
-  "creativetab.exoterra.exoterra_blocks": "ExoTerra Blocks"
+  "creativetab.exoterra.exoterra_blocks": "ExoTerra Blocks",
+
+  "block.exoterra.simple_generator": "Simple Generator",
+  "screen.exoterra.burn_time": "Burn time left: %ss",
+  "screen.exoterra.energy": "Energy: %s/%s FE",
+  "screen.exoterra.no_fuel": "Fuel source empty"
 }

@@ -1,10 +1,14 @@
 package com.ultricem.exoterra.item;
 
 import com.ultricem.exoterra.ExoTerra;
+import com.ultricem.exoterra.block.ModBlocks;
+import com.ultricem.exoterra.block.custom.simplegenerator.SimpleGeneratorItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+
+import java.util.function.Supplier;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ExoTerra.MOD_ID);
@@ -72,6 +76,9 @@ public class ModItems {
 
     // Alumina
     public static final DeferredItem<Item> ALUMINA = ITEMS.registerSimpleItem("alumina", new Item.Properties());
+
+    //Simple Generator Item
+    public static final Supplier<Item> SIMPLE_GENERATOR_BI = ITEMS.register("simple_generator", () -> new SimpleGeneratorItem(ModBlocks.SIMPLE_GENERATOR.get(), new Item.Properties()));
 
 
 

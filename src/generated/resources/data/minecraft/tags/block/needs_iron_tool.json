@@ -19,6 +19,7 @@
     "exoterra:power_input_plug",
     "exoterra:power_output_plug",
     "exoterra:fluid_input_hatch",
-    "exoterra:fluid_output_hatch"
+    "exoterra:fluid_output_hatch",
+    "exoterra:simple_generator"
   ]
 }

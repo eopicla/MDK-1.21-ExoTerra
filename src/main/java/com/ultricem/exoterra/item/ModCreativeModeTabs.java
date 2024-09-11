@@ -109,6 +109,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.exoterra.exoterra_machines"))
                     .displayItems((itemDisplayParameters, output) -> {
 
+                        output.accept(ModItems.SIMPLE_GENERATOR_BI.get());
+
                         output.accept(ModBlocks.BASIC_MOTOR);
                         output.accept(ModBlocks.ADVANCED_MOTOR);
                         output.accept(ModBlocks.ENHANCED_MOTOR);

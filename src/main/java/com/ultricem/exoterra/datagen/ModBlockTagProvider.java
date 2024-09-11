@@ -5,6 +5,7 @@ import com.ultricem.exoterra.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -43,7 +44,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POWER_OUTPUT_PLUG.get())
 
                 .add(ModBlocks.FLUID_INPUT_HATCH.get())
-                .add(ModBlocks.FLUID_OUTPUT_HATCH.get());
+                .add(ModBlocks.FLUID_OUTPUT_HATCH.get())
+
+                .add(ModBlocks.SIMPLE_GENERATOR.get());
 
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
@@ -70,6 +73,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POWER_OUTPUT_PLUG.get())
 
                 .add(ModBlocks.FLUID_INPUT_HATCH.get())
-                .add(ModBlocks.FLUID_OUTPUT_HATCH.get());
+                .add(ModBlocks.FLUID_OUTPUT_HATCH.get())
+
+                .add(ModBlocks.SIMPLE_GENERATOR.get());
     }
 }

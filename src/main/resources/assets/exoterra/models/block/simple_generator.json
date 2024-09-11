@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "exoterra:block/simple_generator_bottom",
+    "front": "exoterra:block/simple_generator_fronton",
+    "side": "exoterra:block/simple_generator_side",
+    "top": "exoterra:block/simple_generator_top"
+  }
+}
